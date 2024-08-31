@@ -4,10 +4,15 @@ import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 import WeatherSearch from './WeatherSearch';
+import Days from './Days';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  
+    
+    <Days/>
     <WeatherSearch />
   </React.StrictMode>
 );

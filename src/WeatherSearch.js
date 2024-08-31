@@ -16,6 +16,7 @@ export default function WeatherSearch() {
       icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       description: response.data.weather[0].description,
     });
+    console.log(response.data)
   }
 
   function handleSubmit(event) {
