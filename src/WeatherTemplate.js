@@ -48,6 +48,9 @@ export default function WeatherTemplate ()
         </li>
        </ul>
      </div>
+    <footer>
+      <a href="https://github.com/Rivoningo2/weather-react-app" target="_blank"  rel="noreferrer"> open-soure code</a> by Rivoningo Hlungwane
+    </footer>
         </div>
       )
 }
