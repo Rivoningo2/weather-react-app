@@ -7,3 +7,27 @@
    
    
 }
+
+.currentTemp{
+   font-size: 60px;
+   font-weight: 500;
+   margin-left: 10px;
+}
+
+.units{
+font-size: 18px;
+position: relative;
+top: -30px;
+
+}
+li{
+    list-style: none;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+footer{
+    font-size: 12px;
+}
